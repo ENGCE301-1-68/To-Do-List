@@ -1,12 +1,30 @@
-# React + Vite
+# My To-Do List (Container Pattern)
+โปรเจกต์นี้คือ **แอปพลิเคชันจัดการงาน (To-Do List)** ที่ถูกพัฒนาด้วย **React**  โดยใช้แนวคิด **Container Pattern** เพื่อแยก **การจัดการข้อมูล (Logic/State)** ออกจาก **การแสดงผล (UI Component)**  ทำให้โค้ดมีโครงสร้างที่ชัดเจน เข้าใจง่าย และสามารถนำไปขยายต่อได้สะดวก
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## คุณสมบัติ (Features)
+* **เพิ่มงาน (Add Task):** ผู้ใช้สามารถเพิ่มงานใหม่ได้  
+* **แก้ไขงาน (Edit Task):** รองรับการแก้ไขรายการงานแบบ inline  
+* **ลบงาน (Delete Task):** จัดการลบงานที่ไม่ต้องการได้ทันที  
+* **ทำเครื่องหมายว่างานเสร็จแล้ว (Complete Task):** เปลี่ยนสถานะงานที่ทำเสร็จเรียบร้อย  
+* **UI เรียบง่าย ใช้งานสะดวก:** ออกแบบให้เหมาะสำหรับการใช้งานจริงในชีวิตประจำวัน  
+* **Container Pattern:** แยก Business Logic ออกจาก UI Components ทำให้โค้ดอ่านง่ายและ maintain ได้ง่ายขึ้น
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+----
 
-## Expanding the ESLint configuration
+## เทคโนโลยีที่ใช้ (Tech Stack)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** → ใช้สำหรับสร้าง UI แบบ Component  
+- **JavaScript (ES6+)** → จัดการ Logic และ State  
+- **CSS3** → สร้าง UI เรียบง่ายและ Responsive  
+- **Node.js + npm** → จัดการ dependencies และ build scripts
+
+---
+## การติดต่อ (Contact)
+
+หากมีคำถาม ข้อเสนอแนะ หรือต้องการร่วมงาน สามารถติดต่อเราได้ที่:
+
+* **Sittinon Yongyutwichai(Non):** aprilnontest@gmail.com.com)
+* **โทรศัพท์:** 064-940-63XX
+---
